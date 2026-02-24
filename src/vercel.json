@@ -1,0 +1,13 @@
+{
+  "build": {
+    "env": {
+      "NODE_OPTIONS": "--legacy-peer-deps"
+    }
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
